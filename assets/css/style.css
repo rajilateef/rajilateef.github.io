@@ -131,15 +131,85 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: #efefef;
+	background: white;
 	position: fixed;
 	left: 260px;
 	width: calc(100% - 260px);
-	border-bottom: 0.5px solid black;
+	border-bottom: 0.5px solid rgba(238, 229, 229, 0.6);
 	top: 0;
 	z-index: 20;
 	background: #fff;
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 1px rgba(238, 229, 229, 0.6);;
+}
+
+#main-content {
+	margin-left: 260px;
+}
+
+main{
+	background: #eeeeee;
+	min-height: calc(100vh - 64px);
+	margin-top: 64px;
+	padding: 25px;
+}
+.card-flex .card-info span i{
+	color: #FFA031;
+	padding-right: 5px;
+	
+}
+
+.headers h2{
+	padding-top: 15px;
+	font-size: 36px;
+	padding-left: 25px;
+	padding-bottom: 15px;
+	position: static;
+	width: 95px;
+	height: 52px;
+	left: 0px;
+	top: 79px;
+}
+.card-flex .card-info span{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	/* identical to box height */
+	padding-top: 15px;
+	padding-left: 25px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+
+	color: rgba(0, 0, 0, 0.6);
+}
+.card-flex hr{
+	background-color:rgba(238, 229, 229, 0.6);
+}
+.cards{
+
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+
+	/* display: relative; */
+	/* margin: 25px 25px 0px 25px; */
+
+}
+
+.card-single{
+	background: #fff;
+	border-radius: 2px;
+	width: 206px;
+	height: 146px;
+	
+	top: 89px;
+	border-radius: 4px;
+	
+}
+
+.card-flex{
+
 }
 /* .sidebar-dropdown ul li a{
 	color: var(--text-color);
