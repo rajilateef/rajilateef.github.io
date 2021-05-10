@@ -135,11 +135,11 @@ header{
 	position: fixed;
 	left: 260px;
 	width: calc(100% - 260px);
-	border-bottom: 0.5px solid rgba(238, 229, 229, 0.6);
+	border-bottom: 0.5px solid rgba(170, 168, 168, 0.6);
 	top: 0;
 	z-index: 20;
 	background: #fff;
-	box-shadow: 1px 1px 1px rgba(238, 229, 229, 0.6);;
+	
 }
 
 #main-content {
@@ -168,6 +168,11 @@ main{
 	height: 52px;
 	left: 0px;
 	top: 79px;
+	color: #333333;
+	display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 25px;
 }
 .card-flex .card-info span{
 	font-family: 'Jost';
