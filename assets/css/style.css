@@ -38,15 +38,12 @@ margin-left: 25px;
 }
 
 
-.sidebar-brand{
-	height: 70px;
-}
 
 .brand-flex{
 	display: flex;
 	justify-content:flex-start;
 	align-items: center;
-	margin-bottom: 25px;
+	margin-bottom: 33px;
 }
 
 
@@ -79,7 +76,9 @@ margin-left: 25px;
 	font-weight: 200;
 }
 .dropdown-toggle::after {
-    display: none;
+    /* display: none; */
+	margin-right: 22px;
+	float: right;
 }
 .wrapper .sidebar-menu{
 	padding-left: 25px;
@@ -94,6 +93,9 @@ margin-left: 25px;
 	padding-left: 40px;
 }
 
+.sidebar-submenu ul li:first-child{
+	padding-top: 10px;
+}
 
 #main-content {
 	margin-left: 260px;
