@@ -97,9 +97,6 @@ margin-left: 25px;
 	padding-top: 10px;
 }
 
-#main-content {
-	margin-left: 260px;
-}
 
 .header-icons span{
 	display: inline-block;
@@ -138,7 +135,7 @@ header{
 	border-bottom: 0.5px solid rgba(170, 168, 168, 0.6);
 	top: 0;
 	z-index: 20;
-	background: #fff;
+	
 	
 }
 
@@ -147,7 +144,7 @@ header{
 }
 
 main{
-	background: #eeeeee;
+	background: #f8f6f6;
 	min-height: calc(100vh - 64px);
 	margin-top: 64px;
 	padding: 25px;
@@ -193,6 +190,7 @@ main{
 	width: 206px !important;
 	height: 146px !important;
 	border-radius: 4px;
+	border: 1px solid #fff;
 }
 
 
@@ -205,6 +203,12 @@ main{
 	top: 89px;
 	border-radius: 4px;
 	
+}
+.card-title{
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
 }
 
 
@@ -224,7 +228,7 @@ border-radius: 8px;
 	display: flex;
 	justify-content: space-between;
 	padding: 25px;
-	border-bottom: 1px solid rgb(190, 184, 184) ;
+	border-bottom: 1px solid rgb(241, 237, 237) ;
 }
 
 .header-actions button{
@@ -236,7 +240,10 @@ border-radius: 8px;
 	background: #fff;
 	font-weight: 400;
 	margin-right: 15px;
+	color: rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(0, 0, 0, 0.6);
 }
+
 
 .header-actions button:nth-child(2){
 	color: #fff;
@@ -264,6 +271,10 @@ table tr{
 table th{
 	font-weight: 500;
 	font-size: 16px;
+}
+
+.table-responsive{
+	overflow-x: auto;
 }
 /* .sidebar-dropdown ul li a{
 	color: var(--text-color);
