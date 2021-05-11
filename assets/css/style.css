@@ -248,9 +248,18 @@ table tr{
 	height: 72px;
 	font-size: 16px;
 	font-weight: 400;
-	text-align: center;
+	padding: 24px;
+}
+.icons span{
+	font-size: 16px;
+	font-weight: 400;
+	padding-right: 15px;
+	color: rgb(179, 175, 175);
 }
 
+.icons:hover span{
+	color: black;
+}
 
 table th{
 	font-weight: 500;
