@@ -211,13 +211,30 @@ main{
 .sub-main {
 	/* margin-top: 50px; */
 	/* position: relative; */
-	position: relative;
+position: relative;
 width: calc(100vw - 285px - 25px);
 height: 456px;
 top: 25px;
 
 background: #FFFFFF;
 border-radius: 8px;
+}
+
+.page-header{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	border-bottom: 1px solid rgb(190, 184, 184) ;
+}
+
+.header-actions button{
+	outline: none;
+	border-radius: 4px;
+	width: 151px;
+	padding: 11px 15px 11px 15px;
+	height: 44px;
+	background: #fff;
+	font-weight: 400;
 }
 /* .sidebar-dropdown ul li a{
 	color: var(--text-color);
