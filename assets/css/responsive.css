@@ -49,6 +49,9 @@
         margin-left: 0px;
         padding: 5px;
     }
+    table{
+        height: fit-content;
+    }
 
     .title-left h3{
         font-size: 15px;
