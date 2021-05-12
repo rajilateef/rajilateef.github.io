@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <title>FunnelJoy</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
     <!-- css stylesheet link bootsrap -->
@@ -27,128 +27,132 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Custom Css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     
 
 </head>
 <body>
     <!-- sidebar -->
 
-    <div class="wrapper">
-           <div class="brand-flex">
-               <span class="logo">
-                   <img src="assets/images/logo light.png" alt="">
-                </span> 
-                
-            </div>
-        
+    <input type="checkbox" id="sidebar-toggle" name="">
+     <div class="wrapper">
+      <div class="brand-flex">
+        <span class="logo">
+            <img src="assets/images/logo light.png" alt="">
+         </span> 
+         
+     </div>
+ 
 
-        <!-- =====sidebar main ===========-->
+ <!-- =====sidebar main ===========-->
 
-        <!-- <div class="sidebar-main">
-            <div class="sidebar-menu">
-                <div class="menu-head">
-                    <ul>
-                        <li><span><i class="fas fa-filter"></i></span></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
+ <!-- <div class="sidebar-main">
+     <div class="sidebar-menu">
+         <div class="menu-head">
+             <ul>
+                 <li><span><i class="fas fa-filter"></i></span></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+             </ul>
+         </div>
+     </div>
+ </div> -->
 
-        <div class="sidebar-menu">
-            <ul class="list-unstyled component">
-                <li class="active"><a href="#">
-                    <i class="bi bi-funnel-fill"></i>
-                    <span>Funnel</span>
-                  </a>
-                </li>
+ <div class="sidebar-menu">
+     <ul class="component">
+         <li class="active">
+           <a href="#">
+             <i class="bi bi-funnel-fill"></i>
+             <span>Funnel</span>
+           </a>
+         </li>
 
-              <li class="sidebar-dropdown">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                    <i class="bi bi-handbag-fill"></i>
-                  <span>Sell</span>
-                </a>
-                <div class="sidebar-submenu">
-                  <ul class="" id="homeSubmenu">
-                    <li>
-                      <a href="#">Products </a>
-                    </li>
-                    <li>
-                        <a href="#">Memberships </a>
-                      </li>
-                      <li>
-                        <a href="#">Orders </a>
-                      </li>
-                      <li>
-                        <a href="#">Coupons </a>
-                      </li>
-                  </ul>
-                </div>
-              </li>
-            
-              <li>
-                <a href="#">
-                    <i class="bi bi-person-lines-fill"></i>
-                  <span>Contact</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                    <i class="bi bi-camera-reels-fill"></i>
-                  <span>Training</span>
-                </a>
-              </li>
-            
+       <li class="sidebar-dropdown">
+         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+             <i class="bi bi-handbag-fill"></i>
+           <span>Sell</span>
+         </a>
+         <div class="sidebar-submenu">
+           <ul class="collapse" id="homeSubmenu">
+             <li>
+               <a href="#">Products </a>
+             </li>
+             <li>
+                 <a href="#">Memberships </a>
+               </li>
+               <li>
+                 <a href="#">Orders </a>
+               </li>
+               <li>
+                 <a href="#">Coupons </a>
+               </li>
+           </ul>
+         </div>
+       </li>
+     
+       <li>
+         <a href="#">
+             <i class="bi bi-person-lines-fill"></i>
+           <span>Contact</span>
+         </a>
+       </li>
+       <li>
+         <a href="#">
+             <i class="bi bi-camera-reels-fill"></i>
+           <span>Training</span>
+         </a>
+       </li>
+     
 
-            <li class="sidebar-dropdown">
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                    <i class="bi bi-person-fill"></i>
-                  <span>Account</span>
-                </a>
-                <div class="sidebar-submenu">
-                  <ul class="" id="pageSubmenu">
-                    <li>
-                      <a href="#">Joyworks Profile </a>
-                    </li>
-                    <li>
-                        <a href="#">Team</a>
-                      </li>
-                      <li>
-                        <a href="#">Billing </a>
-                      </li>
-                      <li>
-                        <a href="#">Reseller </a>
-                      </li>
-                  </ul>
-                </div>
-              </li>
+     <li class="sidebar-dropdown">
+         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+             <i class="bi bi-person-fill"></i>
+           <span>Account</span>
+         </a>
+         <div class="sidebar-submenu">
+           <ul class="collapse list-unstyled" id="pageSubmenu">
+             <li>
+               <a href="#">Joyworks Profile </a>
+             </li>
+             <li>
+                 <a href="#">Team</a>
+               </li>
+               <li>
+                 <a href="#">Billing </a>
+               </li>
+               <li>
+                 <a href="#">Reseller </a>
+               </li>
+           </ul>
+         </div>
+       </li>
 
-              <li class="sidebar-dropdown">
-                <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                    <i class="bi bi-gear-fill"></i>
-                  <span>Setting</span>
-                </a>
-                <div class="sidebar-submenu">
-                  <ul class="list-unstyled" id="pageSubmenu2">
-                    <li>
-                      <a href="#">Integration</a>
-                    </li>
-                    <li>
-                        <a href="#">Audit Log </a>
-                      </li>
-                      <li>
-                        <a href="#">Subaccount Settings </a>
-                      </li>
-                     
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
+       <li class="sidebar-dropdown">
+         <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+             <i class="bi bi-gear-fill"></i>
+           <span>Setting</span>
+         </a>
+         <div class="sidebar-submenu">
+           <ul class="collapse list-unstyled" id="pageSubmenu2">
+             <li>
+               <a href="#">Integration</a>
+             </li>
+             <li>
+                 <a href="#">Audit Log </a>
+               </li>
+               <li>
+                 <a href="#">Subaccount Settings </a>
+               </li>
+              
+           </ul>
+         </div>
+       </li>
+     </ul>
+   </div>
+           
           <!-- sidebar-menu  -->
     </div>
 
@@ -160,7 +164,10 @@
     <div id="main-content">
       <header>
         <div class="title-left">
-          <h3>Funnel Campaign</h3>
+          <label for="sidebar-toggle">
+            <h3>Funnel Campaign</h3>
+          </label>
+         
         </div>
         <div class="header-icons">
           <span><i class="bi bi-info-circle"></i></span>
@@ -291,10 +298,10 @@
       
 
 
-    </main>
-     
-      
+    </main> 
     </div>
+
+    <label for="sidebar-toggle" class="body-label"></label>
     <!-- ========== End Start Content -->
 
  <!-- jQuery CDN - Slim version (=without AJAX) -->
