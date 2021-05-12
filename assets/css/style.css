@@ -279,7 +279,10 @@ padding: 0px;
 	border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
-
+.table-responsive{
+overflow-x: auto;
+position: relative;
+}
 .header-actions button:nth-child(2){
 	color: #fff;
 	background: #FFA031;
